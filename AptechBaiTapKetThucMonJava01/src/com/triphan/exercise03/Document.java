@@ -5,7 +5,6 @@ package com.triphan.exercise03;
  * This is the superclass of Books, Magazines, Newspaper classes.
  * @version 1.0 2021-11-16
  * @author Tri Phan
- *
  */
 public class Document 
 {
