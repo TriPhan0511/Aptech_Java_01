@@ -33,6 +33,29 @@ public class Console
 	}
 	
 	/**
+	 * Gets a double from user input 
+	 * @param sc A Scanner object is used to 
+	 * 			get user input from the console.
+	 * @param prompt A message which is used ask user enter data. 
+	 * @return An integer.
+	 */
+	public static int getDouble(Scanner sc, String prompt)
+	{
+		while (true)
+		{
+			System.out.print(prompt);
+			try
+			{
+				return Integer.parseInt(sc.nextLine());
+			}
+			catch (NumberFormatException e)
+			{
+				System.out.println("Invalid double. Try again.");
+			}
+		}
+	}
+	
+	/**
 	 * Gets a string from user input
 	 * @param sc A Scanner object is used to 
 	 * 			get user input from the console.
@@ -117,6 +140,22 @@ public class Console
 			System.out.println("Please enter Y or N.");
 		}
 	}
+	
+//	public static double getDouble(Scanner sc, String prompt)
+//	{
+//		while (true)
+//		{
+//			System.out.print(prompt);
+//			try
+//			{
+//				return Double.parseDouble(sc.nextLine());
+//			}
+//			catch (NumberFormatException e)
+//			{
+//				System.out.println("Invalid double. Try again.");
+//			}
+//		}
+//	}
 }
 
 

@@ -19,8 +19,8 @@ public class Exercise08
 	
 	/**
 	 * Gets size of an integer array, 
-	 * 	and its contents from user input from the console.
-	 * 	Next, calculate sum of the contents.
+	 * 	and its content from user input from the console.
+	 * 	Next, calculate sum of the content.
 	 *  Then, returns the sum.
 	 * @param sc A Scanner object which is uses to get user input from the console.
 	 * @return An integer.
@@ -28,10 +28,10 @@ public class Exercise08
 
 	/**
 	 * Gets size of an integer array, 
-	 * 	and its contents from user input from the console.
-	 *  Next, prints out the contents of the array to the console. 
+	 * 	and its content from user input from the console.
+	 *  Next, prints out the content of the array to the console. 
 	 *  Then, reverses the order of elements in the array.
-	 *  Finally, prints out the contents which just reversed.
+	 *  Finally, prints out the content which just reversed.
 	 * @param sc A Scanner object which used to get user input from the console.
 	 */
 	public void reverseOrderOfElements(Scanner sc)
@@ -40,14 +40,14 @@ public class Exercise08
 //		creates an array of integers.
 		int[] numbers = Console.getAnArrayOfIntegers(sc);
 		
-//		Prints out the contents of the array which just entered.
+//		Prints out the content of the array which just entered.
 		System.out.println("\nOriginal array:");
 		Utilities.printIntegerArray(numbers);
 		
 //		Reverse the order of the array
 		reverseOrderOfElements(numbers);
 		
-//		Prints out the contents of the array which just reversed
+//		Prints out the content of the array which just reversed
 		System.out.println("\nAfter reversing:");
 		Utilities.printIntegerArray(numbers);
 	}

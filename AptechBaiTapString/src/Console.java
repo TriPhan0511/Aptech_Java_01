@@ -54,34 +54,6 @@ public class Console
 		}
 	}
 	
-	/**
-	 * Gets a character from user input
-	 * @param sc A Scanner object is used to 
-	 * 	get user input from the console.
-	 * @param prompt A message which used to ask 
-	 * 	the user enter data. 
-	 * @return A char.
-	 */
-	public static char getChar(Scanner sc, String prompt)
-	{
-		while (true)
-		{
-			System.out.print(prompt);
-			String input = sc.nextLine();
-			if (input == null || input.length() == 0)
-			{
-				System.out.println("You should not enter an empty string.");
-				continue;
-			}
-			return input.charAt(0);
-		}
-	}
-	
-	/**
-	 * Gets an array of integers from user input from the console.
-	 * @param sc A Scanner object which used to data from the console.
-	 * @return An array of integers.
-	 */
 	public static int[] getAnArrayOfIntegers(Scanner sc)
 	{
 		int size = getInteger(sc, "Enter size of an array: ");

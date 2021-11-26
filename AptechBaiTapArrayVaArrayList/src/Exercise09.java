@@ -20,7 +20,7 @@ public class Exercise09
 	
 	/**
 	 * Gets size of an integer array, 
-	 * 	and its contents from user input from the console.
+	 * 	and its content from user input from the console.
 	 * 	Next, sorts the array in ascending order.
 	 *  Then, prints out the sorted array to the console.
 	 * @param sc

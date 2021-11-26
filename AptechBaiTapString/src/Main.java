@@ -7,7 +7,7 @@ public class Main
 	public static void main(String[] args)
 	{
 		int firstExercise = 1;
-		int lastExercise = 5;
+		int lastExercise = 8;
 		System.out.println("\nLet's test my exercises.");
 		while (true)
 		{
@@ -19,10 +19,6 @@ public class Main
 			}
 		}
 		System.out.println("\nThank you for testing my exercises!");
-		
-//		---------------------------------------------------------------------
-		
-//		new Exercise05().doExercise05();
 	}
 	
 	/**
@@ -54,18 +50,18 @@ public class Main
 			case 5:
 				new Exercise05().doExercise05();
 				break;
-//				
-//			case 6:
-//				new Exercise06().doExercise06();
-//				break;
-//				
-//			case 7:
-//				new Exercise07().doExercise07();
-//				break;
-//				
-//			case 8:
-//				new Exercise08().doExercise08();
-//				break;
+				
+			case 6:
+				new Exercise06().doExercise06();
+				break;
+				
+			case 7:
+				new Exercise07().doExercise07();
+				break;
+				
+			case 8:
+				new Exercise08().doExercise08();
+				break;
 				
 			default:
 				System.out.printf("Wrong choice!\n"

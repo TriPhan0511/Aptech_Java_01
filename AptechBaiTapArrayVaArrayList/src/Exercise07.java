@@ -17,8 +17,8 @@ public class Exercise07
 	
 	/**
 	 * Gets size of an integer array, 
-	 * 	and its contents from user input from the console.
-	 * 	Next, calculate sum of the contents.
+	 * 	and its content from user input from the console.
+	 * 	Next, calculate sum of the content.
 	 *  Then, returns the sum.
 	 * @param sc A Scanner object which is uses to get user input from the console.
 	 * @return An integer.

@@ -1,6 +1,6 @@
 
 /**
- * Exercise 04: Sorting contents of integer array in 
+ * Exercise 04: Sorting content of integer array in 
  * 	ascending order and descending order.
  */
 public class Exercise04 
@@ -29,11 +29,11 @@ public class Exercise04
 	
 	/**
 	 * Implements the selection sort algorithm.
-	 * Sorts contents of an integer array in ascending order,
+	 * Sorts content of an integer array in ascending order,
 	 * 	or in descending order.
 	 * @param numbers An array of integers.
-	 * @param isAcs if true, indicates that sort the array's contents in ascending order.
-	 * 				if false, indicates that sort the array's contents in descending order.
+	 * @param isAcs if true, indicates that sort the array's content in ascending order.
+	 * 				if false, indicates that sort the array's content in descending order.
 	 */
 	public void sort(int[] numbers, boolean isAcs)
 	{

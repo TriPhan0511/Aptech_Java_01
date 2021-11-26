@@ -30,10 +30,10 @@ public class Exercise03
 //		Prints out the result
 		System.out.println("\nPart 01: Converts from an array list of Integers\n"
 				+ "to an array of ints");
-		System.out.println("\nContents of original array list:");
+		System.out.println("\nContent of original array list:");
 		Utilities.printIntergerArrayList(list);
 		System.out.println("\nAfter converting from an array list of Integers\n"
-				+ "to an array of ints, the contents of the array:");
+				+ "to an array of ints, the content of the array:");
 		Utilities.printIntegerArray(array);
 		
 		/* Part 02: Converts from an array of ints to an array list of Integers. */
@@ -47,10 +47,10 @@ public class Exercise03
 		System.out.println("\n------------------------------------------------------");
 		System.out.println("\nPart 02: Converts from an array of ints\n"
 				+ "to an array list of Integers.");
-		System.out.println("\nContents of original array:");
+		System.out.println("\nContent of original array:");
 		Utilities.printIntegerArray(array2);
 		System.out.println("\nAfter converting from an array of ints\n"
-				+ "to an array list of Integers, the contents\n"
+				+ "to an array list of Integers, the content\n"
 				+ "of the array list:");
 		Utilities.printIntergerArrayList(list2);
 	}
